@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: maarten-dev-hub-training-organization/first-initiated-software-template
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: development
   owner: user:development/guest     # set value defined in the (scaffolding/golden path) template
                                       # dump is a filter:
                                       # https://backstage.io/docs/features/software-templates/builtin-actions/
