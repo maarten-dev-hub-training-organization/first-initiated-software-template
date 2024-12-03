@@ -6,6 +6,8 @@ metadata:
     github.com/project-slug: maarten-dev-hub-training-organization/first-initiated-software-template
     argocd/app-selector: rht-gitops.com/demo-project=simple-hello-world-service-a
     argocd/instance-name: argoInstance1 # as defined in app-config-rhdh.yaml
+    backstage.io/kubernetes-namespace: demo-project 
+    backstage.io/kubernetes-id: dev-hub-test-demo
 spec:
   type: service
   lifecycle: development
